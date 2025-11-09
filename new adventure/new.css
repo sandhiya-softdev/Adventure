@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
 }
+body{
+    background: #f2f2f2;
+}
  header{
    position: fixed;
     top:0;
@@ -12,6 +15,7 @@
     background: #333; 
     z-index: 100;
 } 
+
 .flex{
     display: flex;
     align-items: center;
@@ -113,10 +117,15 @@ section .cards{
 section .card{
     width: calc (100% /3 -30px);
     text-align: center;
+    list-style: none;
+    background-color: #fff;
+    padding: 40px 15px;
+    border-radius: 5px;
 }
 section .cards .card img{
     height: 120px;
     width: 120px;
     border-radius: 50%;
     text-align: center;
+    margin-bottom: 20px;
 } 
