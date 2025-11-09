@@ -97,3 +97,26 @@
     background: rgba(255,255,255,0.3);
 
 }
+/* service */
+section{
+    padding-top: 80px;
+}
+.section-tittle{
+    text-align: center;
+}
+section h2{
+    font-size: 2rem;
+}
+section .cards{
+    margin-top: 50px;
+}
+section .card{
+    width: calc (100% /3 -30px);
+    text-align: center;
+}
+section .cards .card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+} 
