@@ -115,7 +115,7 @@ section .cards{
     margin-top: 50px;
 }
 section .card{
-    width: calc (100% /3 -30px);
+    width: calc(100% /3 -30px);
     text-align: center;
     list-style: none;
     background-color: #fff;
