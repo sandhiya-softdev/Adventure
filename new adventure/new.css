@@ -111,10 +111,12 @@ section{
 section h2{
     font-size: 2rem;
 }
-section.cards{
-    margin-top:50px;
+section .cards{
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
+
 section .card{
     width:calc(100% / 3 -30px);
     background-color: #fff;
