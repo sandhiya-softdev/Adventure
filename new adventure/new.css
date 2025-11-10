@@ -115,14 +115,15 @@ section .cards{
     margin-top: 50px;
 }
 section .card{
-    width: calc(100% /3 -30px);
+    width: calc(100% / 3 -30px);
     text-align: center;
     list-style: none;
     background-color: #fff;
     padding: 40px 15px;
     border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.9);
 }
-section .cards .card img{
+section .card img{
     height: 120px;
     width: 120px;
     border-radius: 50%;
